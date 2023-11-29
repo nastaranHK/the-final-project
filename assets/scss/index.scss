@@ -1,0 +1,50 @@
+@import'./variables';
+.body-css{
+    background-color: $light-green;
+    .container-css{
+        .row-css{
+            // .col-css{
+                .navbar-css{
+                  background-color: $light-green;
+                  border-bottom: solid 8px $beige-color ;
+                  .fluid-css{
+                    .font-css{
+                        color: white;
+                    }
+                    .navbar2-css{
+                        .form-css{
+                          .btn-css{
+                            background-color: $beige-color;
+                          }
+                        }
+                    }
+                  }
+                }
+                
+            // }
+        }
+        .secondrow-css{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .carousel-inner-css{
+
+                border-radius: 20px;
+            }
+        }
+            .thirdrow-css{
+                width: 900px;
+                height: auto;
+                margin: auto;
+                .card-css{
+                    background-color: $beige-color;
+                    .btn-css{
+                        background-color: $medium-green;
+                        color: white;
+                    }
+                }
+              }
+        
+    }
+}

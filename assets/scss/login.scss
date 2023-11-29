@@ -1,0 +1,13 @@
+@import'./variables';
+.main-div{
+    background-color: $light-green;
+    .column-css{
+       display: flex;
+       align-items: center;
+       height: 100vh;
+       justify-content: center;
+       .form-body{
+        background-color: $beige-color;
+       }
+    }
+}

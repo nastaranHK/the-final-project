@@ -1,0 +1,35 @@
+.body-css {
+  background-color: #739072;
+}
+.body-css .container-css .row-css .navbar-css {
+  background-color: #739072;
+  border-bottom: solid 8px #ECE3CE;
+}
+.body-css .container-css .row-css .navbar-css .fluid-css .font-css {
+  color: white;
+}
+.body-css .container-css .row-css .navbar-css .fluid-css .navbar2-css .form-css .btn-css {
+  background-color: #ECE3CE;
+}
+.body-css .container-css .secondrow-css {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.body-css .container-css .secondrow-css .carousel-inner-css {
+  border-radius: 20px;
+}
+.body-css .container-css .thirdrow-css {
+  width: 900px;
+  height: auto;
+  margin: auto;
+}
+.body-css .container-css .thirdrow-css .card-css {
+  background-color: #ECE3CE;
+}
+.body-css .container-css .thirdrow-css .card-css .btn-css {
+  background-color: #4F6F52;
+  color: white;
+}
+
+/*# sourceMappingURL=index.css.map */

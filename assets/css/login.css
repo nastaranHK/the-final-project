@@ -1,0 +1,14 @@
+.main-div {
+  background-color: #739072;
+}
+.main-div .column-css {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+}
+.main-div .column-css .form-body {
+  background-color: #ECE3CE;
+}
+
+/*# sourceMappingURL=login.css.map */
