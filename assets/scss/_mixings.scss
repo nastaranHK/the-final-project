@@ -1,0 +1,7 @@
+@mixin cardstyle {
+    background-color: $beige-color;
+    .btn-css{
+        background-color: $medium-green;
+        color: white;
+    }
+}
