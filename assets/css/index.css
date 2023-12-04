@@ -53,9 +53,10 @@
 .body-css .container-css .fifthrow {
   margin-top: 60px;
   background-color: #ECE3CE;
+  height: 10rem;
 }
-.body-css .container-css .fifthrow .image-css img {
-  border-radius: 8px;
+.body-css .container-css .fifthrow .restrictions p {
+  font-size: xx-small;
 }
 
 /*# sourceMappingURL=index.css.map */
