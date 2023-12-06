@@ -1,6 +1,7 @@
 @import'./variables';
 .main-div{
     background-color: $light-green;
+    
     .column-css{
        display: flex;
        align-items: center;
@@ -10,4 +11,9 @@
         background-color: $beige-color;
        }
     }
+}
+
+
+.warningtext{
+    color: maroon;
 }

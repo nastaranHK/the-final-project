@@ -1,5 +1,12 @@
 @mixin cardstyle {
     background-color: $beige-color;
+    img{
+        width: 12rem;
+        height:16rem;
+        margin: auto;
+        object-fit: cover;
+        border-radius: 1rem;
+    }
     .btn-css{
         background-color: $medium-green;
         color: white;

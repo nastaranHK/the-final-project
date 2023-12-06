@@ -15,10 +15,10 @@
     <link rel="stylesheet" href="../assets/css/login.css" />
     <script src="../assets/js scripts/login.js" defer></script>
     <link
-    rel="shortcut icon"
-    href="./assets/images/favicon.png"
-    type="image/x-icon"
-  />
+      rel="shortcut icon"
+      href="./assets/images/favicon.png"
+      type="image/x-icon"
+    />
     <title>Login</title>
   </head>
   <body>
@@ -27,33 +27,38 @@
         <div class="col column-css">
           <div class="card form-body">
             <div class="card-body">
-              <form  >
-                <div class="mb-3">
-                  <label for="exampleInputEmail1" class="form-label"
+              <form>
+                <div class="mb-3" id="input1">
+                  <label for="emailinput" class="form-label"
                     >Email address</label
                   >
                   <input
-                    type="email"
+                    type="text"
                     class="form-control"
-                    id="exampleInputEmail1"
+                    id="emailinput"
                     aria-describedby="emailHelp"
                   />
-                  <div id="emailHelp" class="form-text">
-                    We'll never share your email with anyone else.
+
+                  <div>
+                    <p class="warningtext" id="input1div"></p>
                   </div>
                 </div>
-                <div class="mb-3">
-                  <label for="exampleInputPassword1" class="form-label"
-                    >Password</label
-                  >
-                  <input
-                    type="password"
-                    class="form-control"
-                    id="exampleInputPassword1"
-                  />
+                <div class="mb-3" id="input2">
+                  <label for="passwordinput" class="form-label">Password</label>
+                  <input type="password" class="form-control" id="passwordinput" />
+                  <div>
+                    <p class="warningtext" id="input2div"></p>
+                  </div>
                 </div>
-               
-                <button type="submit" class="btn btn-success mt-2  ">Submit</button>
+
+                <button
+                  type="submit"
+                  class="btn btn-success mt-2"
+                  id="btn"
+              
+                >
+                  Submit
+                </button>
               </form>
             </div>
           </div>
