@@ -1,5 +1,6 @@
 @mixin cardstyle {
     background-color: $beige-color;
+    border-radius: 1rem;
     img{
         width: 12rem;
         height:16rem;
