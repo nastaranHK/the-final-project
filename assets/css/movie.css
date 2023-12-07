@@ -2,20 +2,24 @@
   background-color: #739072;
   height: 100%;
 }
+.body-css .container-css {
+  height: 100%;
+}
 .body-css .container-css .row-css {
   margin-top: 2rem;
 }
 .body-css .container-css .row-css .card-css {
   background-color: #ECE3CE;
-  width: 18rem;
-  height: 20rem;
 }
 .body-css .container-css .row-css .card-css img {
-  width: 12rem;
   height: 16rem;
   margin: auto;
   object-fit: cover;
   border-radius: 1rem;
+}
+.body-css .container-css .row-css .card-css .card-body .btn-css {
+  background-color: #4F6F52;
+  color: white;
 }
 
 /*# sourceMappingURL=movie.css.map */

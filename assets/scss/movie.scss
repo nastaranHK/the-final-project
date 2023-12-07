@@ -5,19 +5,25 @@
     background-color:$light-green ;
     height: 100%;
     .container-css{
+        height: 100%;
         .row-css{
             margin-top: 2rem;
                 .card-css{
                     background-color: $beige-color;
-                    width: 18rem;
-                    height:20rem;
+                  
                     img{
-                        width: 12rem;
+                      
                         height:16rem;
                         margin: auto;
                         object-fit: cover;
                         border-radius: 1rem;
                     }
+                   .card-body{
+                    .btn-css{
+                        background-color: $medium-green;
+                        color: white;
+                    }
+                   }
                 }
             
         }
