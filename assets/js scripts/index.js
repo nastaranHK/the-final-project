@@ -1,5 +1,6 @@
 const userName = document.getElementById("username");
 const thirdRow =document.getElementById("thirdrow");
+const fourthRow = document.getElementById("fourthrow");
 const top10 = [
   {id: 1, image: "./assets/images/top 10 pics/assassin class top 10.jpg", title: "Assasination Classroom", introduction: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus, obcaecati."},
   {id: 2, image: "./assets/images/top 10 pics/free guy top 10.jpg", title: "Free Guy", introduction: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus, obcaecati."},
@@ -13,6 +14,12 @@ const top10 = [
   {id: 10, image: "./assets/images/top 10 pics/scream top 10.jpg", title: "Scream", introduction: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus, obcaecati."},
   
 ];
+const comingSoon=[
+    { id:1, image:"./assets/images/coming soon/chicken run coming soon.jpg", title:"Chicken Run 2"},
+    { id:2, image:"./assets/images/coming soon/deadpoolcoming soon.jpg", title:"DeadPool3"},
+    { id:3, image:"./assets/images/coming soon/wish coming soon.jpg", title:"Wish"},
+    { id:4, image:"./assets/images/coming soon/joker coming soon.jpg", title:"Joker: Folie à Deux "}
+]
 
 
 
@@ -33,6 +40,23 @@ top10.map(item=>{
       <a href="#" class="btn btn-css">Read More</a>
     </div>`
    thirdRow.appendChild(cardModel)
+
+});
+
+comingSoon.map(item=>{
+    const cardModel =document.createElement('div')
+    cardModel.classList.add('card');
+    cardModel.classList.add('mx-1');
+    cardModel.classList.add('mt-1');
+    cardModel.classList.add('col-md-3');
+    cardModel.classList.add('card-css');
+    cardModel.innerHTML=`
+     <img src='${item.image}' class="card-img-top" alt="..." />
+    <div class="card-body">
+      <h3 class="card-title">${item.title}</h3>
+      <a href="#" class="btn btn-css">More Details</a>`
+
+    fourthRow.appendChild(cardModel)
 
 });
 
