@@ -64,6 +64,12 @@
                 background-color: $beige-color;
               
                 height: 10rem;
+                .connections{
+                  .us{
+                    text-decoration: none;
+                    color:$medium-green;
+                  }
+                }
                .restrictions{
                 p{
                   font-size: xx-small;

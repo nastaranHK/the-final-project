@@ -71,6 +71,10 @@
   background-color: #ECE3CE;
   height: 10rem;
 }
+.body-css .container-css .fifthrow .connections .us {
+  text-decoration: none;
+  color: #4F6F52;
+}
 .body-css .container-css .fifthrow .restrictions p {
   font-size: xx-small;
 }
