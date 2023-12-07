@@ -12,6 +12,11 @@ button.addEventListener("click", (e) => {
   e.preventDefault();
    if(emailInput.value ==='nastaranhk@gmail.com' && passwordInput.value ==='123456'){
     window.location.replace('../index.html')
+    const userEmail = emailInput.value;
+    const userPass = passwordInput.value
+
+    const user =[{userEmail, userPass}]
+    localStorage.setItem('token',JSON.stringify(user))
    } else if(emailInput.value !=='nastaranhk@gmail.com' || passwordInput.value !=='123456'){
     input1Div.innerText='invalid email'
     input2Div.innerText='invalid password'

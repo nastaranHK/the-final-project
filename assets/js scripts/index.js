@@ -60,3 +60,10 @@ comingSoon.map(item=>{
 
 });
 
+const user=document.createElement('h3');
+ user.classList.add('navbar2-css')
+ const token = localStorage.getItem('token')
+ const tokenInfo= (JSON.parse(token))
+ user.innerHTML=``
+ userName.appendChild
+
